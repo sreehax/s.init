@@ -6,5 +6,7 @@ It is compatible with sysvinit and OpenRC, or any init that uses scripts stored 
 to shutdown the system: `s.init shutdown`
 to reboot the system: `s.init reboot`
 and more...
+### Use s.init instead of your current init
+just edit the kernel cmdline and add/replace init=/sbin/s.init
 ### License
 s.init is licensed under the MIT License
